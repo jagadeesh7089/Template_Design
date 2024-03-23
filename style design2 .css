@@ -1,0 +1,133 @@
+
+.logo{
+    width: 50%;
+    margin: -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    display:inline-block;
+    font-size: 30px;
+    color: white;
+
+}
+.menu{
+    width:50%;
+    margin: -2px;
+    text-align: right;
+    box-sizing: border-box;
+    display: inline-block;
+
+
+}
+.menu .list{
+    padding: 30px;
+    display: inline-block;
+    color: white;
+
+}   
+
+.menu .list:hover{
+    color: orangered;
+    background-color: rgb(207, 190, 170);
+    box-shadow: 2px 2px  rgb(145, 69, 69);
+    border-radius: 15px;
+
+}
+.bar{
+    background-color:rgb(126, 111, 111);
+    /* border-radius: 5px; */
+    height: 80px;
+    padding: 10px;
+    position:sticky;
+    top: 0px;
+    /* left: 0px; */
+    
+}
+.bgimg{
+    background-image: url("https://damassets.autodesk.net/content/dam/autodesk/www/industry/3d-animation/create-beautiful-3d-animations-thumb-1204x677.jpg ");
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:-20px;
+    padding: 0px;
+}
+.text{
+    color:rgb(221, 138, 151);
+     padding-left: 200px;
+     padding-top: 300px;
+     
+    
+
+}
+.middle{
+    text-align: center;
+    padding:20px 0px;
+}
+.card{
+    display: inline-block;
+    margin:20px;
+    width: 24%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 50px;
+    /* background-color: aquamarine; */
+    border-radius: 50px;
+    /* border: 10px solid violet; */
+    
+    
+
+
+}
+.cards{
+    /* box-sizing: border-box; */
+    background-color: bisque;
+    /* padding: 50px; */
+    /* text-align: center; */
+    /* border: 1px solid red; */
+    position: relative;
+
+}
+.card i{
+    color: orangered;
+    font-size: 40px;
+    position: absolute;
+    border-radius: 50%;
+    background-color:rgb(69, 67, 67);
+    top: -30px;
+    
+    padding: 10px 20px;
+
+}
+body{
+    margin:0px;
+    padding: 0px;
+    
+}
+.br{
+    border-right:1px solid rgb(238, 213, 177);
+    margin:-0px;
+
+}
+.foot{
+    text-align: center;
+
+}
+.bor{
+    position: relative;
+    border: 1px solid grey;
+
+}
+.arrow{
+    position: absolute;
+    top: -15px;
+    left:50%;
+    font-size: 25px;
+    background-color: white;
+    color: orangered;
+    padding: 0px 10px;
+}
+.card i:hover{
+    color: rgb(236, 87, 87);
+    background-color: rgb(231, 182, 123);
+    transform: rotateY(360 deg);
+    transition: 10sec;
+}

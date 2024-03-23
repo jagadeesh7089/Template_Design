@@ -1,0 +1,28 @@
+.aaa{
+    display: inline-block;
+    box-sizing: border-box;
+    margin: -2px;
+    background-color: bisque;
+    width: 22%;
+    height: 25%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 20px solid red;
+    border-radius: 22px;
+    margin:15px;
+    
+    
+
+
+}
+.body{
+    background-color: rgb(22, 21, 21);
+}
+.aaa img{
+       border-radius: 45%
+}
+.aaa button{
+    padding: 15px;
+    margin-left: 50px;
+    margin-top: 15px;
+}

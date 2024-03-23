@@ -1,0 +1,86 @@
+.bar{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(219, 194, 242);
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    margin: 0px;
+   
+}
+.sea{
+
+    /* background-color: aquamarine; */
+    width: 500px;
+    height: 40px;
+    background-color: rgb(197, 251, 233);
+    border-radius: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.ima{
+    
+    justify-content: flex-start;
+    padding-left:0px;
+} 
+i{
+    font-size: 25px;
+}
+.a,.b,.c{
+    font-size: 20px;
+}
+.s{
+    position: absolute;
+    left: 400px;
+    color: rgb(69, 69, 208);
+}
+    
+.items{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly; 
+    padding: 20px; 
+     background-color: white;
+    margin: 10px 20px;
+    height: 200px;
+    border: 2px solid grey;
+    width: 96%;
+}
+body{
+    background-color: rgb(220, 231, 231); 
+}
+.middle{
+    margin-left: 20px;
+    margin-right: 40px
+}
+.bottom{
+    display:flex ;
+    align-items: center;
+    justify-content:space-evenly;
+    margin:10px;
+    
+    padding-left: 10px;
+    
+}
+.deals{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    border: 2px solid rgb(201, 106, 201);
+    margin: 10px 20px;
+    height: 400px;
+    border-radius: 10px;
+    
+}
+.jjj{
+    border: 1px dashed rgb(251, 132, 251);
+    padding: 20px;
+    border-radius: 20px;
+}
+.zzz{
+    background-color: white;
+    margin: 15px;
+    height: 500px;
+}

@@ -1,0 +1,46 @@
+.child{
+    display: inline-block;
+    margin: -2px;
+    box-sizing: border-box;
+    padding: 50px;
+    width: 25%;
+    border: 2px solid chocolate;
+    border-radius: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.aaa{
+    display: inline-block;
+    margin: -2px;
+    box-sizing: border-box;
+    width: 20%;
+    /* border: 1px solid green; */
+    padding-top: 15px;
+    vertical-align: middle;
+    text-align: center;
+    
+
+}
+.bbb{
+    display: inline-block;
+    margin: -2px;
+    box-sizing: border-box;
+    width: 70%;
+    /* border: 1px solid red; */
+    /* padding-bottom: 50px; */
+    /* height: 300px; */
+    padding-top:25px ;
+    text-align: center;
+    vertical-align: middle;
+}
+.parent{
+    background-color: rgb(252, 200, 137);
+    height: 50%;
+    box-sizing: border-box;
+    padding: 40px;
+
+}
+.ccc{
+    padding: 20px;
+}

@@ -160,9 +160,10 @@
     background-color: #ffffff;
     /* margin-top: -150px; */
     /* position:relative; */
-    transform: translate(67px,-50px) ;
+    /* transform: translate(67px,-50px) ; */
     /* bottom: 130px; */
     /* left: 100px; */
+    margin-left: 70px;
     border: 2px solid rgb(75, 73, 73);
     border-radius: 20px;
     display: flex;
@@ -271,9 +272,7 @@ li{
 .plat{
     padding-right: 20px;
 }
-.high{
-    /* width: 40%; */
-}
+
 .bttn{
     margin-top: 20px;
 

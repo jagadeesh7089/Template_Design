@@ -1,6 +1,6 @@
 
 .logo{
-    width: 50%;
+    width: 40%;
     margin: -2px;
     padding: 20px;
     box-sizing: border-box;
@@ -19,7 +19,7 @@
 
 }
 .menu .list{
-    padding: 30px;
+    padding: 20px;
     display: inline-block;
     color: white;
 
@@ -29,17 +29,19 @@
     color: orangered;
     background-color: rgb(207, 190, 170);
     box-shadow: 2px 2px  rgb(145, 69, 69);
-    border-radius: 15px;
+    border-radius: 10px;
 
 }
 .bar{
     background-color:rgb(126, 111, 111);
     /* border-radius: 5px; */
-    height: 80px;
+    height: 50px;
     padding: 10px;
     position:sticky;
     top: 0px;
     /* left: 0px; */
+    display: flex;
+    justify-content: space-evenly;
     
 }
 .bgimg{
@@ -128,6 +130,7 @@ body{
 .card i:hover{
     color: rgb(236, 87, 87);
     background-color: rgb(231, 182, 123);
-    transform: rotateY(360 deg);
-    transition: 10sec;
+    transform: rotateX(360deg); 
+    transition:2.5s;
+    
 }
